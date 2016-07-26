@@ -34,7 +34,7 @@ class CartController
     }
     
     /**
-     * Action для добавления товара в корзину синхронным запросом
+     * Action для удаления товара из корзины
      * @param integer $id <p>id товара</p>
      */
     public function actionDelete($id)
